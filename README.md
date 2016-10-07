@@ -73,4 +73,4 @@ Get a chart of your metrics
 chartmogul mrr --this year
 ```
 
-[Imgur](http://i.imgur.com/xmso0uo.png)
+![Screenshot](http://i.imgur.com/xmso0uo.png)
