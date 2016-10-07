@@ -49,6 +49,8 @@ Get metrics for this week / day / month / etc.
 $ chartmogul mrr --this week
 ```
 
+![Screenshot](http://imgur.com/4v6VI8y)
+
 Get all metrics for specific period.
 
 ```
