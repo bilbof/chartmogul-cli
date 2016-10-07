@@ -1,9 +1,9 @@
-ChartMogul CLI!
+ChartMogul CLI
 ---------------
 
-Request [ChartMogul](https://chartmogul.com) Metrics from the command line. Haha.
+Request [ChartMogul](https://chartmogul.com) Metrics from the command line.
 
-Much inspired (stolen) from Tim Petterson's blog post [Building command line tools with Node.js](https://developer.atlassian.com/blog/2015/11/scripting-with-node/).
+Much inspired by Tim Petterson's blog post [Building command line tools with Node.js](https://developer.atlassian.com/blog/2015/11/scripting-with-node/).
 
 ## Installation
 
