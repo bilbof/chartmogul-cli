@@ -29,11 +29,11 @@ $ chartmogul -h
     -h, --help                 output usage information
     <metric>                   The metric you would like fetch, e.g. all, mrr, arr, customer-churn-rate, mrr-churn-rate, ltv, customers, asp, arpa
     -t, --this <increment>     A handy replacement for the start and end date fields, e.g. week, month, quarter
-    -s, --start-date <start>   The start date of the required period of data. An ISO-8601 formatted date, e.g. 2015-05-12
-    -e, --end-date <end>       The end date of the required period of data. An ISO-8601 formatted date, e.g. 2015-05-12
+    -s, --start-date <start>   The start date of the required period of data. An ISO formatted date, e.g. 2015-05-12
+    -e, --end-date <end>       The end date of the required period of data. An ISO formatted date, e.g. 2015-05-12
     -i, --interval <interval>  One of `day`, `week`, `month` (default), or `quarter`
-    -g, --geo <geo>      A comma-separated list of ISO 3166-1 Alpha-2 formatted country codes to filter the results to, e.g. US,GB,DE (optional)
-    -P, --plans <plans>        A comma-separated list of plan names (as configured in your ChartMogul account) to filter the results to, e.g. Silver%20plan,Gold%20plan,Enterprise%20plan (optional)
+    -g, --geo <geo>            A comma-separated list of ISO 3166-1 Alpha-2 formatted country codes e.g. US,GB,DE
+    -P, --plans <plans>        A comma-separated list of plan names e.g. Silver%20plan,Gold,Enterprise
     -c, --chart                View the result in a chart
 
   Examples:
@@ -60,7 +60,7 @@ $ chartmogul all --start-date 2016-01-01 --end-date 2016-10-15
 Get a metric for a group of plans
 
 ```
-$ chartmogul all --start-date 2016-01-01 --end-date 2016-10-15 --plans Gold%20Silver
+$ chartmogul all --start-date 2016-01-01 --end-date 2016-10-15 --plans Gold,Silver
 ```
 
 Get a metric for a region or set of regions
