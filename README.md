@@ -13,6 +13,14 @@ You will need your ChartMogul API Token and Secret Key (found at https://app.cha
 $ npm install -g chartmogul-cli
 ```
 
+## Usage
+
+Get help
+
+```sh
+$ chartmogul -h
+```
+
 ```
   Usage: chartmogul <metric> [options]
 
@@ -33,14 +41,6 @@ $ npm install -g chartmogul-cli
     $ chartmogul all --start-date 2016-01-01 --end-date 2016-10-15
     $ chartmogul mrr --start-date 2016-01-01 --end-date 2016-10-15 -geo DE,US
     $ chartmogul ltv --this week -plans Silver,Gold
-```
-
-## Usage
-
-Get help.
-
-```sh
-$ chartmogul -h
 ```
 
 Get metrics for this week / day / month / etc.
